@@ -1,6 +1,5 @@
 import { createTheme } from '@mui/material';
 import { deepPurple } from '@mui/material/colors';
-
 const theme = createTheme({
   palette: {
     primary: deepPurple,
@@ -9,7 +8,7 @@ const theme = createTheme({
     MuiTypography: {
       styleOverrides: {
         root: {
-          fontFamily: 'Segoe UI',
+          fontFamily: 'Segoe UI Light',
         },
       },
     },
@@ -19,27 +18,27 @@ const theme = createTheme({
           color: 'black',
           border: '1px solid beige',
           borderRadius: 0,
-          fontFamily: 'Segoe UI',
+          fontFamily: 'Segoe UI Light',
         },
       },
     },
     MuiAlert: {
       styleOverrides: {
         root: {
-            fontFamily: 'Segoe UI',
+            fontFamily: 'Segoe UI Light',
             fontWeight: 300,
             borderRadius: 0,
             textTransform: 'none',
             fontSize: '1rem',
             color: 'black',
-            backgroundColor: 'gray'
+            backgroundColor: '#e7e7e7'
         },
       },
     },
     MuiButton: {
         styleOverrides: {
           root: {
-              fontFamily: 'Segoe UI',
+              fontFamily: 'Segoe UI Light',
               fontWeight: 300,
               borderRadius: 0,
               textTransform: 'none',
