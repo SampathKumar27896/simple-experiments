@@ -1,12 +1,12 @@
 @font-face {
-  font-family: 'Segoe UI Light';
-  src: local('Segoe UI Light'), url('./fonts/SegoeUILight.ttf') format('truetype');
-  font-weight: lighter;
+  font-family: 'Inter';
+  src: url('./fonts/Inter-variable.ttf') format('truetype-variations');
+  font-weight: 1 999;
 }
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Segoe UI Light', 'Times New Roman';
-  background-color: beige;
+  font-family: 'Inter', 'Times New Roman';
+  background-color: #eceff1;
   color: black;
 }

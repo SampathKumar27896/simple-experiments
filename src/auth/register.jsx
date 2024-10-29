@@ -10,7 +10,7 @@ import { motion } from 'framer-motion';
 const Register = () => {
   return (
     <div>
-      <motion.div initial={{ x: 20 }} animate={{ x: 0 }} transition={{ type: 'tween', duration: 0.5 }}>
+      <motion.div>
         <Box sx={{ p: 2 }}>
           <Formik
             initialValues={{ userName: '', email: '', password: '', confirmPassword: '' }}
@@ -55,8 +55,8 @@ const Register = () => {
                   />
                   <TextField
                     id="email"
-                    label="email"
                     variant="outlined"
+                    placeholder="email"
                     onChange={handleChange}
                     onBlur={handleBlur}
                     value={values.email}
@@ -64,8 +64,8 @@ const Register = () => {
                   {errors.email}
                   <TextField
                     id="password"
-                    label="Password"
                     variant="outlined"
+                    placeholder="password"
                     type="password"
                     onChange={handleChange}
                     onBlur={handleBlur}
@@ -73,8 +73,8 @@ const Register = () => {
                   />
                   <TextField
                     id="confirmPassword"
-                    label="Confirm password"
                     variant="outlined"
+                    placeholder="confirm password"
                     type="password"
                     onChange={handleChange}
                     onBlur={handleBlur}

@@ -17,7 +17,8 @@ const Login = () => {
   return (
     <div>
       {auth && <Navigate to="/grid" />}
-      <motion.div initial={{ x: 20 }} animate={{ x: 0 }} transition={{ type: 'tween', duration: 0.5 }}>
+      <motion.div
+      >
         <Box sx={{ p: 2 }}>
           <Formik
             initialValues={{ userName: '', password: '' }}
